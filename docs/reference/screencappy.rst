@@ -1,0 +1,5 @@
+screencappy
+=============================
+
+.. automodule:: screencappy
+    :members:
