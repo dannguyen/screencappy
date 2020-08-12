@@ -53,6 +53,8 @@ setup(
         # eg: "keyword1", "keyword2", "keyword3",
     ],
     install_requires=[
+        "click>=7.1.2",
+        'Pillow>=7.2',
         # eg: "aspectlib==1.1.1", "six>=1.7",
     ],
     extras_require={
@@ -60,7 +62,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "screencappy = screencappy.cli:main"
+            "scappy = screencappy.cli:main"
         ]
     }
 
