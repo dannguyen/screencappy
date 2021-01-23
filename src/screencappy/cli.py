@@ -14,7 +14,7 @@ from screencappy.capture import IMAGE_FORMAT_OPTIONS, capture_image, is_valid_im
                 )
 @click.option('-p', '--pause', type=click.FLOAT, default=1)
 def main(output_path, format, pause):
-    """ capture an image via screencapture """
+    """capture an image via screencapture """
     if not format:
         format = str(output_path).split('.')[-1].lower()
         if not is_valid_image_format(format):
